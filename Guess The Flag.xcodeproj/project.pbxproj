@@ -11,6 +11,7 @@
 		EBB7CFCB261A8F4E00467183 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB7CFCA261A8F4E00467183 /* ContentView.swift */; };
 		EBB7CFCD261A8F4E00467183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB7CFCC261A8F4E00467183 /* Assets.xcassets */; };
 		EBB7CFD0261A8F4E00467183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB7CFCF261A8F4E00467183 /* Preview Assets.xcassets */; };
+		EBFC152B2621459B001DB041 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFC152A2621459B001DB041 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EBB7CFCC261A8F4E00467183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBB7CFCF261A8F4E00467183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBB7CFD1261A8F4E00467183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFC152A2621459B001DB041 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB184A53261BEE670034B6A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBFC152A2621459B001DB041 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		EBB7CFBC261A8F4E00467183 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		EBB7CFC7261A8F4E00467183 /* Guess The Flag */ = {
 			isa = PBXGroup;
 			children = (
+				EB184A53261BEE670034B6A2 /* ViewModel */,
 				EBB7CFC8261A8F4E00467183 /* Guess_The_FlagApp.swift */,
 				EBB7CFCA261A8F4E00467183 /* ContentView.swift */,
 				EBB7CFCC261A8F4E00467183 /* Assets.xcassets */,
@@ -140,6 +151,7 @@
 			files = (
 				EBB7CFCB261A8F4E00467183 /* ContentView.swift in Sources */,
 				EBB7CFC9261A8F4E00467183 /* Guess_The_FlagApp.swift in Sources */,
+				EBFC152B2621459B001DB041 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
